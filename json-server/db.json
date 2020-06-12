@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "Alejandra Cruz",
+      "email": "aeer@cos.com",
+      "role": "Administrator",
+      "status": "active",
+      "uuid": "wf1VX5F"
+    },
+    {
+      "name": "Sandra Luz",
+      "email": "3423@cos.com",
+      "role": "Administrator",
+      "status": "blocked",
+      "uuid": "AN1tEHw"
+    },
+    {
+      "name": "Benedikt Safiyulin",
+      "email": "576dafg@cos.com",
+      "role": "Collaborator",
+      "status": "active",
+      "uuid": "cB-F-oE"
+    },
+    {
+      "name": "Alan Martínez",
+      "email": "shffad@cos.com",
+      "role": "Accountant",
+      "status": "pending",
+      "uuid": "Ah1uxf4"
+    }
+  ]
+}
