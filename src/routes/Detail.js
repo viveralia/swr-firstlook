@@ -2,19 +2,13 @@ import { Box, Container, Typography } from "@material-ui/core";
 
 import React from "react";
 import { Skeleton } from "@material-ui/lab";
-import axios from "axios";
 import { useParams } from "@reach/router";
 import useSWR from "swr";
 
 const Detail = () => {
   const { id } = useParams();
 
-  const fetcher = async (endpoint) => {
-    const { data } = await axios.get(endpoint);
-    return data;
-  };
-
-  const { data: user } = useSWR(`/users/${id}`, fetcher);
+  const { data: user } = useSWR(`/users/${id}`);
 
   return (
     <Container>
